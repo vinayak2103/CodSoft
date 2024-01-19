@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Resume Portfolio</title>
+        <link rel="icon" href="img\logo.png">
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://kit.fontawesome.com/06274d37c5.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="img\logo.png" alt="" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars menu" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Frontend Web Developer</p>
+                    <h1>Hi, I'm <span>Vinayak Gangrade</span></h1>
+                </div>
+                <a href="img\Vinayak Gangrade Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+        </div>
+
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-1">
+                        <img src="img\bg_2.png" alt="">
+                    </div>
+                    <div class="col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p style="margin-top: 15px;font-size: 20px;">A dedicated and impressive observation capability frontend developer with proficient skills in web development and good knowledge of Data Structures & Algorithms and Object Oriented Programming. An excellent team player with strong leadership and communication skills.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Languages:</span> <br>C, C++, Java, Javascript</li>
+                                <li><span>Web Development:</span> <br>HTML, CSS, BootStrap</li>
+                                <li><span>Tools & Technologies:</span> <br>VS Code, Git, GitHub, Canva</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Basic Web Development Internship</span><br>Bharat Interns <br>July-August 2023 <a href="img\bharat.jpg" download class="btn btn3">Get Certificate</a></li>
+                                <li><span>Web Development Internship</span> <br>Sync Interns <br>August-September 2023 <a href="img\sync.jpg" download class="btn btn3">Get Certificate</a></li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2021 - Current</span> <br>K.K.Wagh Institute of Engineering
+                                    Education and Research, Nashik <br>Bachelor of Engineering in Information Technology</li>
+                                <li><span>2019 - 2021</span> <br>Adv. S.A.Baheti Science , Commerce &
+                                    Arts College, Jalgaon <br>H.S.C (XII): Percentage: 81.33</li>
+                                <li><span>Till 2019</span> <br>St. Lawrence High School, Jalgaon <br>S.S.C (X): Percentage: 85.20</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p>ggaushnokldnaVBFUDad</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop"></i>
+                        <h2>UI/UX Design</h2>
+                        <p>ggaushnokldnaVBFUDad</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store-ios"></i>
+                        <h2>App Design</h2>
+                        <p>ggaushnokldnaVBFUDad</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="img\Laundrylink.png" alt="">
+                        <div class="layer">
+                            <h3>LaundryLink</h3>
+                            <p>A online laundry system during mini project in Project Based Learning. A group project through which we bring traditionally running laundry workflow on online platform. I designed overall interfaces and also designed database in
+                            project. Features of project was order receive/delivery time was previous notified to user.</p>
+                            <a href="https://github.com/Sagar55526/LaundryLinkPBL"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="img\grainelite.png" alt="">
+                        <div class="layer">
+                            <h3>GrainElite</h3>
+                            <p>As a part of better human
+                                computer interaction this project was build
+                                Online platform using React.Js that keep
+                                records of every transactions of grain
+                                brokers through very minimal steps of
+                                work. As a part of my plan I will bring this
+                                platform online, as open source software
+                                using firebase connectivity..</p>
+                            <a href="https://github.com/vinayak2103/GrainElite"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="img\elearn.png" alt="">
+                        <div class="layer">
+                            <h3>E-Learning Website</h3>
+                            <p>A website where the needy persons can get the resources available in the form of documents. A place where one can enhance their knowledge. One can get the free resources in the form of documents and can download it easily. One can also the get the videos of the recorded lectures for the better learning.</p>
+                            <a href="https://github.com/vinayak2103/SyncInterns/tree/main/E-Learning"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="con-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-envelope"></i> gangradevinayak21@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i> 7822036730</p>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/vinayak.gangrade.77?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/vinayak_gangrade_21?igsh=YjIzeDdmZGZxbWh6"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://github.com/vinayak2103"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/vinayak-gangrade-6361a022a"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class="con-right">
+                        <form action="">
+                            <input type="text" name="name" placeholder="Your name" required>
+                            <input type="email" name="email" placeholder="Your email" required>
+                            <textarea name="message" rows="6" placeholder="Your message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright @ Vinayak.</p>
+            </div>
+        </div>
+
+        <script>
+
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+
+            var sidemenu = document.getElementById('sidemenu');
+            function openmenu(){
+                sidemenu.style.right="0";
+            }
+            function closemenu(){
+                sidemenu.style.right="-200px";
+            }
+
+        </script>
+
+    </body>
+</html>
